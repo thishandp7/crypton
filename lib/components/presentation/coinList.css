@@ -1,0 +1,72 @@
+.coinListMain {
+  height: 50em;
+  margin-bottom: 2.5em;
+  position: relative;
+}
+
+.coinListHead {
+  position: absolute;
+  width: 98.5%;
+}
+
+.coinListHead div {
+  position: relative;
+  float:left;
+  margin-right: 0.0001em;
+  width: 20%;
+  text-align: center;
+  padding: 0.5em;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #25212d;
+  color: white;
+}
+
+.coinListBody {
+  top: 2.5em;
+  position: relative;
+  overflow: auto;
+  height: 50em;
+  display: block;
+}
+
+.coinItem {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.5em;
+  padding: 0.25em;
+  margin-left: -0.025em;
+}
+
+.coinItem div {
+  position: relative;
+  float:left;
+  margin-right: 0.0001em;
+  width: 20%;
+  text-align: center;
+  padding: 0.3em 0.1em 0.3em 0.1em;
+  margin-bottom: 0.05em;
+  background-color: #49474f;
+  color: white;
+  overflow: hidden;
+}
+
+.coinListBody::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0.6em;
+	background-color: #545356;
+}
+
+.coinListBody::-webkit-scrollbar
+{
+	background-color: #c9cacc;
+  width: 0.5em;
+}
+
+.coinListBody::-webkit-scrollbar-thumb
+{
+	border-radius: 0.6em;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #25212d;
+}

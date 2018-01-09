@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
 html {
-  background-color: #c9cacc
+  background-color: #c9cacc;
+  font-size: 0.5em;
+  font-family: 'Encode Sans Expanded', sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col"]{
+  float:left;
+  padding: 1px;
+  border:1px solid black;
+}
+
+.col1 {width: 8.33%;}
+.col2 {width: 16.66%;}
+.col3 {width: 25%;}
+.col4 {width: 33.33%;}
+.col5 {width: 41.66%;}
+.col6 {width: 50%;}
+.col7 {width: 58.33%;}
+.col8 {width: 66.66%;}
+.col9 {width: 75%;}
+.col10 {width: 83.33%;}
+.col11 {width: 91.66%;}
+.col12 {width: 100%;}

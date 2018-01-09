@@ -1,11 +1,11 @@
 .menuBar {
   position: relative;
   background-color: #0E0B16;
-  height: 4vw;
+  height: 4em;
   width: 100vw;
   left: 50%;
   right: 50%;
-  margin-top: -0.76vw;
+  margin-top: -1.0em;
   margin-left: -50vw;
   margin-right: -50vw;
 }
