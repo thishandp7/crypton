@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
 
 html {
-  background-color: #c9cacc;
+  background-color: #151635;
   font-size: 0.5em;
   font-family: 'Encode Sans Expanded', sans-serif;
 }
@@ -18,7 +18,7 @@ html {
 [class*="col"]{
   float:left;
   padding: 1px;
-  border:1px solid black;
+  /* border:1px solid black; */
 }
 
 .col1 {width: 8.33%;}

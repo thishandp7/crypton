@@ -1,3 +1,7 @@
 .chartBody {
-  height: 52.5em;
+  height: 70em;
+  background-color: #1b1f3d;
+  margin: 5em;
+  margin-right: 2.5em;
+  border-radius: 2em;
 }
